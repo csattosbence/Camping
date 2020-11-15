@@ -1,5 +1,7 @@
 package com.SecondGr.Camping.controller;
 
+import com.SecondGr.Camping.dao.entity.CampingslotEntity;
+import com.SecondGr.Camping.service.CampingslotService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
