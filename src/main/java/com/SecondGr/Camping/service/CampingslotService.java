@@ -1,5 +1,6 @@
 package com.SecondGr.Camping.service;
 
+import com.SecondGr.Camping.dao.entity.CampingslotEntity;
 import org.springframework.http.ResponseEntity;
 
 import java.net.URISyntaxException;
