@@ -12,4 +12,6 @@ public interface CustomerService {
 
     public List<CustomerEntity> readAll();
 
+    public ResponseEntity<?> getCustomer(Long id);
+
 }

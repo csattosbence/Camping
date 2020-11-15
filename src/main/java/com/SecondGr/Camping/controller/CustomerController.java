@@ -22,6 +22,11 @@ public class CustomerController {
         return customerService.readAll();
     }
 
+    @GetMapping("/{id}")
+    ResponseEntity<?> getCustomer(@PathVariable Long id){
+        return customerService.getCustomer(id);
+    }
+
     @PostMapping("/record")
     ResponseEntity<CustomerEntity> record(@RequestBody CustomerEntity customer) throws URISyntaxException {
         return customerService.record(customer);

@@ -21,4 +21,15 @@ public class CustomerEntity {
 
     @Column
     private String name;
+
+    @Column
+    private String email;
+
+    @Column
+    private String phoneNumber;
+
+    @Column
+    private String address;
+
+
 }
